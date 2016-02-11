@@ -25,6 +25,13 @@ I want to do, and the relevant commands for doing so:
 1. **git config --global user.name** <name>
 1. **git config --global core.editor emacsclient -nw** 
 
+## Working with remotes
+
+1. **git remote add** <short name> <URI>, e.g. GH https://github.com/johnfrombluff/master
+1  **git remote -v**
+1. **git fetch GH**
+
+
 ## Workflow for an established directory/local repository
 
 ### Sync changed files
