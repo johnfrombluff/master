@@ -20,17 +20,18 @@ I want to do, and the relevant commands for doing so:
 
 ## Set up Git for the first time
 
-
 1. **git config --global user.email** <email address>
 1. **git config --global user.name** <name>
 1. **git config --global core.editor emacsclient -nw** 
+1. **git config --global push.default simple**
 
 ## Working with remotes
 
 1. **git remote add** <short name> <URI>, e.g. GH https://github.com/johnfrombluff/master
 1  **git remote -v**
-1. **git fetch GH**
-
+1. **git remote show** <remote>, e.g. GH
+1. **git fetch** <remote>, e.g. GH
+1. **git remote rename** <old name> <new name>
 
 ## Workflow for an established directory/local repository
 
