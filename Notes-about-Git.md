@@ -13,7 +13,7 @@ I want to do, and the relevant commands for doing so:
     1. Get a list/description of snapshots (**git branch**)
     1. Revert to a specific branch
 
-2. Contribute to an existing project
+1. Contribute to an existing project
     1. Clone a project
 	1. Make a change and upload it
 	1. Notify the owner that the change is available
@@ -24,11 +24,13 @@ I want to do, and the relevant commands for doing so:
 1. **git config --global user.name** <name>
 1. **git config --global core.editor emacsclient -nw** 
 1. **git config --global push.default simple**
+1. **git config --global credential.helper "cache --timeout=3600"**
+
 
 ## Working with remotes
 
 1. **git remote add** <short name> <URI>, e.g. GH https://github.com/johnfrombluff/master
-1  **git remote -v**
+1. **git remote -v**
 1. **git remote show** <remote>, e.g. GH
 1. **git fetch** <remote>, e.g. GH
 1. **git remote rename** <old name> <new name>
